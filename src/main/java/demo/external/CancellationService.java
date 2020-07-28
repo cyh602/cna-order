@@ -13,5 +13,5 @@ public interface CancellationService {
 
     @RequestMapping(method= RequestMethod.POST, path="/cancellations")
     public void cancel(@RequestBody Cancellation cancellation);
- 
+
 }
